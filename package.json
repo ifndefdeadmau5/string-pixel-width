@@ -1,7 +1,7 @@
 {
-  "name": "string-pixel-width",
-  "version": "1.10.0",
-  "description": "String pixel width measurement on the backend in Javascript",
+  "name": "string-pixel-width-kr",
+  "version": "1.11.1",
+  "description": "String(Korean) pixel width measurement on the backend in Javascript",
   "main": "lib/index.js",
   "scripts": {
     "test": "jest",
@@ -15,11 +15,11 @@
     "string",
     "pixel width"
   ],
-  "author": "Adam Bisek <adam.bisek@gmail.com>",
+  "author": "Sungmin Park <trevorme91@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/adambisek/string-pixel-width.git"
+    "url": "https://github.com/ifndefdeadmau5/string-pixel-width.git"
   },
   "devDependencies": {
     "babel-cli": "^6.18.0",
@@ -39,8 +39,5 @@
     "gulp": "^3.9.1",
     "gulp-eslint": "^3.0.1",
     "jest": "^18.1.0"
-  },
-  "dependencies": {
-    "lodash.deburr": "^4.1.0"
   }
 }

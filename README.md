@@ -24,6 +24,8 @@ var pixelWidth = require('string-pixel-width');
 
 const width = pixelWidth('이 텍스트의 width는 얼마일까요?');
 
+```
+-----------
 How to contribute
 ------------
 PRs are welcome :)

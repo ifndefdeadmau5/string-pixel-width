@@ -1,68 +1,28 @@
-[string-pixel-width](https://github.com/adambisek/string-pixel-width)
+[string-pixel-width-kr](https://github.com/adambisek/string-pixel-width)
 ===================================
-[![Build Status](https://travis-ci.org/adambisek/string-pixel-width.svg?branch=master)](https://travis-ci.org/adambisek/string-pixel-width)
-[![npm version](https://img.shields.io/npm/v/string-pixel-width.svg?style=flat-square)](https://www.npmjs.com/package/string-pixel-width)
-[![Coverage Status](https://coveralls.io/repos/github/adambisek/string-pixel-width/badge.svg?branch=master)](https://coveralls.io/github/adambisek/string-pixel-width?branch=master)
+Korean text width measurement on the backend in Javascript.
 
-String pixel width measurement on the backend in Javascript.
-
-[Why I created this package? Read more about purpose](https://medium.com/@adambisek/text-pixel-width-measuring-on-javascript-backend-node-js-2b82bea97fab#.8ypyiffyw)
+[Article from the original library author](https://medium.com/@adambisek/text-pixel-width-measuring-on-javascript-backend-node-js-2b82bea97fab#.8ypyiffyw)
 
 Installation
 ------------
 To install the stable version:
 
 <code>
-npm install --save string-pixel-width
+npm install --save string-pixel-width-kr
 </code>
 
 Supported fonts:
 ------------
 
-- Andale Mono
-- Arial
-- Avenir
-- Avenir Next
-- Comic Sans MS
-- Courier New
-- Georgia
-- Helvetica
-- Impact
-- Times New Roman
-- Trebuchet MS
-- Verdana
-- Webdings
-- Open Sans
-- Tahoma
+- Noto Sans KR
 
 Example
 ------------
 ```
 var pixelWidth = require('string-pixel-width');
 
-const width = pixelWidth('My text ...', { size: 10 });
-console.log('This text is ' + width + 'px long in the size of 10px.');
-
-// This text is 43.5px long in the size of 10px.
-```
-
-```
-var pixelWidth = require('string-pixel-width');
-
-const width = pixelWidth('My text ...', { font: 'impact', size: 10 });
-console.log('This text is ' + width + 'px long in the size of 10px.');
-
-// This text is 42px long in the size of 10px.
-```
-
-```
-var pixelWidth = require('string-pixel-width');
-
-const width = pixelWidth('My text ...', { font: 'open sans', size: 10, bold: true, italic: true });
-console.log('This text is ' + width + 'px long in the size of 10px.');
-
-// This text is 47px long in the size of 10px using bold and italic proportions.
-```
+const width = pixelWidth('이 텍스트의 width는 얼마일까요?');
 
 How to contribute
 ------------
